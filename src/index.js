@@ -103,6 +103,10 @@ export default class AttachesTool {
     this.enableFileUpload = this.enableFileUpload.bind(this);
   }
 
+  static get isReadOnlySupported() {
+    return true;
+  }
+
   /**
    * Get Tool toolbox settings
    * icon - Tool icon's SVG
